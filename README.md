@@ -1,44 +1,55 @@
-# Systems Engineering - Assignment #2 #
 
-In order to complete the tasks below, please fill the gaps code wise in the src/solutions package. Note: You can use Eclipse or any favorite Java IDE to accomplish those tasks.
+## Table of Contents
 
-### Task #1 ###
-Page view frequency
+- [Big Data <a name = "about_the_project"></a>](#online-inventory-system-)
+  - [Requirements <a name = "requirements"></a>](#requirements-)
+  - [Contact <a name = "contact"></a>](#contact-)
+---
 
-**Output:** URL → frequency
+<!-- ABOUT THE PROJECT -->
+# Big Data <a name = "about_the_project"></a>
 
+This project is about to deploy a Java-based desktop application to analyze, and systematically extract information from big data sets, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. 
+
+### Project Tasks:  ###
+
+#### 1. Page view frequency ####
+
+   **Output:** URL → frequency
 ```
 #!csv
 
+page									Hit counts
+----									-----------
 http://www.example.com/start.html       145
 http://www.example.com/subpage1.html    121
 http://www.example.com/subpage2.html    45
 …
 ```
-
-
-### Task #2 ###
-Frequency of NYC taxi rides within a 1 hour window
+---
+#### 2. Frequency of NYC taxi rides within a 1 hour window ####
 
 **Output:** timeslot/window → frequency
 
 ```
 #!csv
 
-1am 3252
-2am 2343
-…
-3pm 27357
+time	# taxi on the street
+----	---------------------
+1am 	3252
+2am 	2343
+3pm 	27357
 …
 ```
-### General Notes ###
-* Solutions must be turned in no later than **11:59pm AOE, 11th of Jan‘18!** No late days or other excuses.
-*  Commit & PUSH!!! to your bitbucket repository before the deadline. Don't forget the push.
-*  No team work. We check for plagarism and will let you fail if there is an indication given.
-* Ask questions at [auditorium](https://auditorium.inf.tu-dresden.de) if there are any.
 
+<!-- REQUIREMENTS  -->
+## Requirements <a name = "requirements"></a>
 
-### Notes for Windows users ###
-* You need to set the JAVA_HOME environment variable using the short 8.3 path notation: ```C:\PROGRA~1\Java\JDK18~1.0_1```
-* Your project should reside in a folder structure/subfolder without spaces.
-* Your project should not reside on a Windows share otherwise you get exceptions such as: ```org.apache.hadoop.io.nativeio.NativeIO$POSIX.chmod(NativeIO.java:241)```
+- [JavaSE >= 7 <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html"> </a>](php_download)
+
+<!-- CONTACT -->
+## Contact <a name = "contact"></a>
+
+**Azizul Hakim Shakil** - [@ShakilAzizul](https://twitter.com/ShakilAzizul) - azizulhakim.shakil18@gmail.com
+
+Project Link: [https://github.com/shakil18/Blood-Bank-Management-System](https://github.com/shakil18/Blood-Bank-Management-System)
